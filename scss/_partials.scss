@@ -1,0 +1,83 @@
+$c0: #D9D9D9;
+$c1: #f34d1b;
+$c2: #e7c17c;
+$c3: #e8b06e;
+$c4: #ea9f60;
+$c5: #ec8f52;
+$c6: #ee7f44;
+$c7: #f06f36;
+$c8: #141f36;
+$c9: #F2E0C9;
+$c10: #242426;
+$c11: #F2F2F2;
+$s0: 10px;
+$s1: 14px;
+$s2: 20px;
+$s3: 24px;
+$s4: 40px;
+$s5: 30px;
+$s6: 50px;
+$s7: 100px;
+$s8: 150px;
+$s9: 200px;
+$s10: 300px;
+$per-1: 10%;
+$per-2: 20%;
+$per-3: 30%;
+$per-4: 40%;
+$per-5: 60%;
+$per-6: 60%;
+$per-7: 70%;
+$per-8: 80%;
+$per-9: 90%;
+$per-10: 100%;
+$per-11: 110%;
+$per-12: 120%;
+$per-15: 150%;
+$font-1: 'Josefin Sans', sans-serif;
+$font-2-light: 'Open Sans', sans-serif;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Open+Sans:wght@300&display=swap');
+
+
+
+
+/*** UTILITIES ***/
+.bg {
+    &Dark {
+        background-color: $c10;
+
+        .top-social-menu a {
+            background-color: $c11;
+        }
+
+        .top-social-menu:hover {
+            border-radius: none;
+        }
+
+        .login-area a {
+            color: $c11;
+        }
+
+        .login-area a:hover {
+            border-color: $c11;
+        }
+    }
+
+    &Light {
+        background-color: $c0;
+
+        ul li a {
+            background-color: $c10;
+        }
+
+        .login-area a {
+            color: $c10;
+        }
+
+        .login-area a:hover {
+            border-color: $c10;
+        }
+    }
+}
