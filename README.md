@@ -5,7 +5,8 @@
     <a href="https://vexus.netlify.app/">Demo</a>
  </div>
  
- <img width="944" alt="1" src="https://user-images.githubusercontent.com/96357374/223560917-eeea1d15-e465-4ab5-a830-60d411902aed.png">
+![vexus](https://user-images.githubusercontent.com/96357374/224403566-d86468e9-2b8e-45ab-8775-054c812f829b.png)
+
 
 <img width="945" alt="2" src="https://user-images.githubusercontent.com/96357374/223560938-9f1678a8-d480-43fe-83ce-06102cf77e5f.png">
 
