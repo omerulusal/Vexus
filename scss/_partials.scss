@@ -47,6 +47,30 @@ $font-2-light: 'Open Sans', sans-serif;
 .bg {
     &Dark {
         background-color: $c10;
+        height: 120px;
+        padding-top: 50px;
+
+        .top-social-menu a {
+            background-color: $c11;
+        }
+
+        .top-social-menu:hover {
+            border-radius: none;
+        }
+
+        .login-area a {
+            color: $c11;
+        }
+
+        .login-area a:hover {
+            border-color: $c11;
+        }
+    }
+
+    &Dark-2 {
+        background-color: $c10;
+        height: 250px;
+        padding-top: 50px;
 
         .top-social-menu a {
             background-color: $c11;
